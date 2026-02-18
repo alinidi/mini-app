@@ -5,7 +5,10 @@ export function TasksList() {
     const { tasks, searchTerm, setSearchTerm } = useTasks();
 
     return (
-        <div className="bg-gray-100 min-h-screen rounded-xl p-6">
+        <div
+            className="bg-gray-100 min-h-screen rounded-xl p-6"
+            data-testid="tasks-list"
+        >
             <h1 className="text-3xl font-bold mb-8 text-blue-950">Tasks</h1>
             <input
                 type="text"

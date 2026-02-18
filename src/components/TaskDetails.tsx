@@ -47,7 +47,7 @@ export function TaskDetails() {
                 to={'/'}
                 className="text-blue-500 text-2xl hover:text-gray-600 font-semibold"
             >
-                Go back
+                Back to tasks
             </Link>
         </div>
     );
