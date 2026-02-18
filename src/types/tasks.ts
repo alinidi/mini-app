@@ -1,6 +1,6 @@
 export type TaskType = {
     id: number;
     name: string;
-    status: 'active' | 'completed' | 'not started';
+    status: 'in progress' | 'completed' | 'not started';
     description: string;
 };

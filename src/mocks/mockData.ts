@@ -10,7 +10,7 @@ export const MOCK_TASKS: TaskType[] = [
     {
         id: 2,
         name: 'Detailed task view',
-        status: 'not started',
+        status: 'in progress',
         description:
             'Implement task details component with additional information',
     },
