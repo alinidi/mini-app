@@ -1,5 +1,7 @@
 # mini-app - task dashboard
 
+### Deploy https://mini-tasks-app.netlify.app/
+
 A tiny React app that lists items, supports filter, shows an item details view via routing, and uses a custom hook for data access
 
 ## Technologies
